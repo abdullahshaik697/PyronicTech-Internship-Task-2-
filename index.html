@@ -6,22 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="media_queries.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <title> Pixel Perfect | Kindly </title>
+
+
+    <link rel="icon" type="image/png" href="./assets/favicon.jpg" />
+
+    <title>Ingoude Company | Interior Design & Modern Living</title>
+    <meta name="description"
+        content="Ingoude Company provides premium interior design services, modern home styling, kitchen design, dining aesthetics, and luxury home solutions." />
+    <meta name="keywords"
+        content="Interior design, home design, luxury interior, modern kitchen, Ingoude Company, home styling, dining room design" />
+
 </head>
 
 <body>
 
-    <!-- Overall container with the main background and dark overlay effect -->
     <div class="main-container relative">
         <div class="absolute inset-0 bg-cover bg-center opacity-10 bg-image z-index:0 ">
         </div>
 
-        <!-- HEADER -->
         <header class="relative z-30 flex justify-between items-center py-4 px-4 lg:px-8 border-white/20">
             <div class="text-2xl font-semibold tracking-wider">Ingoude Company</div>
 
@@ -65,7 +74,6 @@
             </div>
         </header>
 
-        <!-- SIDEBAR MOBILE MENU -->
         <div id="sidebar"
             class="fixed top-0 left-0 h-full w-64 bg-[#3b2721]/50 text-white transform -translate-x-full transition-transform duration-300 z-40">
 
@@ -79,19 +87,17 @@
             </nav>
 
             <div class="search-wrapper-in-sidebar">
-                    <input type="text" placeholder="Search..." class="search-input" />
-                    <svg class="search-icon-in-sidebar" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                    </svg>
-                </div>
+                <input type="text" placeholder="Search..." class="search-input" />
+                <svg class="search-icon-in-sidebar" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+            </div>
         </div>
 
-        <!-- BACKGROUND OVERLAY -->
         <div id="overlay" class="hidden fixed inset-0 bg-black/50 z-30"></div>
 
-        <!-- Main Content Area -->
         <main class="content-flex ">
 
             <div class="left-side">
@@ -127,10 +133,6 @@
 
         </main>
 
-        <!-- Ensures main-container has enough height on mobile -->
-        <!-- <div class="lg:hidden h-20"></div> -->
-
-        <!-- </div> -->
     </div>
 </body>
 <script src="main.js"></script>
