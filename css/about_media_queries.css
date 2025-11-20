@@ -1,0 +1,173 @@
+/* ===========================
+   1) 480px - Small Mobile
+=========================== */
+@media (max-width: 480px) {
+
+    .content-flex {
+        padding: 0px 0px;
+        margin: 0%;
+    }
+
+    .left-side-about {
+        padding: 0%;
+    }
+
+    .left-side-about img {
+        border: none;
+        padding: 0px;
+    }
+
+    .right-side-about {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .right-side-about h2 {
+
+        font-size: 3rem;
+        margin: 0%;
+        text-align: center;
+    }
+
+    .right-side-about h4 {
+        font-size: 18px;
+    }
+
+    .right-side-about p {
+        font-size: 15px;
+    }
+
+    .left-side-about img {
+        max-width: 100%;
+    }
+}
+
+
+/* ===========================
+   2) 768px - Tablets
+=========================== */
+@media (max-width: 768px) {
+
+    .left-side-about img {
+        border: none;
+        padding: 0px;
+        width: 350px;
+        max-width: 100%;
+    }
+
+
+}
+
+
+/* ===========================
+   3) DESKTOP (≥ 1024px)
+=========================== */
+@media (min-width: 1024px) {
+    .content-flex {
+        padding: 60px 100px;
+    }
+
+    .right-side h2 {
+        font-size: 55px;
+    }
+}
+
+
+/* ===========================
+   4) Laptops (1024–1440px)
+=========================== */
+@media (min-width: 1024px) and (max-width: 1440px) {
+
+    .content-flex {
+        padding: 50px 70px;
+        gap: 35px;
+    }
+
+    .right-side-about h2 {
+        font-size: 50px;
+    }
+
+    .left-side-about img {
+        max-width: 380px;
+        padding: 14px;
+    }
+}
+
+
+/* ===========================
+   5) Full-HD (1441–1920px)
+=========================== */
+@media (min-width: 1441px) and (max-width: 1920px) {
+
+    .content-flex {
+        padding: 80px 140px;
+    }
+
+    .right-side-about h2 {
+        font-size: 70px;
+    }
+
+    .right-side-about p {
+        font-size: 20px;
+    }
+
+    .left-side-about img {
+        max-width: 450px;
+        border: 1.5px solid white;
+    }
+}
+
+
+/* ===========================
+   6) 2K Screens (1921–2560px)
+=========================== */
+@media (min-width: 1921px) and (max-width: 2560px) {
+    .content-flex {
+        padding: 100px 200px;
+        gap: 60px;
+    }
+
+    .right-side-about h2 {
+        font-size: 85px;
+    }
+
+    .right-side-about p {
+        font-size: 22px;
+    }
+
+    .left-side-about img {
+        max-width: 780px;
+    }
+
+}
+
+/* ===========================
+   7) 4K Screens (2561px+)
+=========================== */
+@media (min-width: 2561px) {
+
+    .content-flex {
+        padding: 140px 300px;
+        gap: 80px;
+    }
+
+    .right-side-about h2 {
+        font-size: 110px;
+    }
+
+    .right-side-about h4 {
+        font-size: 45px;
+        margin-top: 150px;
+    }
+
+    .right-side-about p {
+        font-size: 28px;
+        margin-top: 50px;
+        line-height: 1.8;
+    }
+
+    .left-side-about img {
+        max-width: 1200px;
+    }
+}
