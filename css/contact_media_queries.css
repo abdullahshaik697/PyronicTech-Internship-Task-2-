@@ -1,0 +1,197 @@
+/* =========================================================
+   1) MOBILE — max 480px
+========================================================= */
+
+@media (max-width: 480px) {
+
+    /* CONTACT IMAGES */
+    .image-grid-container {
+        width: 100%;
+        height: 360px;
+    }
+
+    .image-1 {
+        width: 92%;
+    }
+
+    .image-2-frame {
+        width: 80%;
+        height: 58%;
+        left: 50%;
+        padding: 8px;
+    }
+
+    /* FACILITIES */
+    .facilities-section {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+        padding: 30px 20px;
+        margin-bottom: 80px;
+    }
+
+    .images-wrapper,
+    .facilities-content {
+        width: 100%;
+    }
+
+    .img-frame {
+        width: 85%;
+        margin: auto;
+    }
+    
+    .img-overlap {
+        left: 25%;
+        width: 60%;
+    }
+    
+    .facilities-content h2 {
+        font-size: 32px;
+    }
+}
+
+
+/* =========================================================
+   2) TABLETS — max 768px
+========================================================= */
+@media (max-width: 768px) {
+
+    /* CONTACT IMAGES */
+    .image-grid-container {
+        height: 480px;
+    }
+
+    .image-2-frame {
+        width: 75%;
+        height: 78%;
+        left: 65%;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+        gap: 60px;
+    }
+
+    /* FACILITIES */
+    .facilities-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .images-wrapper,
+    .facilities-content {
+        width: 100%;
+    }
+
+    .img-frame {
+        margin: auto;
+    }
+
+    .img-overlap {
+        left: 30%;
+        width: 55%;
+    }
+
+    .facilities-content h2 {
+        font-size: 52px;
+        margin-top: 40px;
+    }
+
+    .number{
+
+        font-size: 16px;
+
+    }
+
+    .facility h4, 
+    .facility p {
+        font-size: 18px;
+    }
+}
+
+
+/* =========================================================
+   3) DESKTOP — min 1024px
+========================================================= */
+@media (min-width: 1024px) {
+    .image-grid-container {
+        height: 520px;
+    }
+
+    .image-1 {
+        width: 82%;
+    }
+
+    .image-2-frame {
+        width: 68%;
+        height: 85%;
+        left: 78%;
+    }
+}
+
+
+/* =========================================================
+   4) LARGE — 1440px to 1920px
+========================================================= */
+@media (min-width: 1440px) and (max-width:1920px) {
+    .image-grid-container {
+        height: 600px;
+    }
+
+    .image-1 {
+        width: 78%;
+    }
+
+    .image-2-frame {
+        width: 60%;
+        height: 80%;
+    }
+}
+
+
+/* =========================================================
+   5) 2K — 1921px to 2560px
+========================================================= */
+@media (min-width:1921px) and (max-width:2560px) {
+    .image-grid-container {
+        height: 720px;
+    }
+
+    .image-1 {
+        width: 72%;
+    }
+
+    .image-2-frame {
+        width: 55%;
+        height: 78%;
+        padding: 14px;
+    }
+}
+
+
+/* =========================================================
+   6) 4K — 2561px+
+========================================================= */
+@media (min-width:2561px) {
+    .image-grid-container {
+        height: 850px;
+    }
+
+    .image-1 {
+        width: 70%;
+    }
+
+    .image-2-frame {
+        width: 50%;
+        height: 75%;
+        padding: 20px;
+    }
+
+    .facilities-content h2 {
+        font-size: 70px;
+    }
+
+    .facility .number {
+        font-size: 40px;
+    }
+}

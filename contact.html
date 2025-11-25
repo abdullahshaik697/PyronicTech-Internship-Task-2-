@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Ingoude Company</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media_queries.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/contact_media_queries.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="icon" type="image/png" href="./assets/favicon.jpg" />
+
+    <meta name="description"
+        content="Ingoude Company provides premium interior design services, modern home styling, kitchen design, dining aesthetics, and luxury home solutions." />
+    <meta name="keywords"
+        content="Interior design, home design, luxury interior, modern kitchen, Ingoude Company, home styling, dining room design" />
+
+
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <header class="relative z-30 flex justify-between items-center py-4 px-4 lg:px-8 border-white/20">
+            <div class="text-2xl font-semibold tracking-wider">Ingoude Company</div>
+
+            <!-- DESKTOP NAV -->
+            <nav class="hidden lg:flex space-x-8 text-lg font-medium">
+                <a href="./about.html" class="hover:text-amber-200 transition duration-200">About Us</a>
+                <a href="#" class="hover:text-amber-200 transition duration-200">Gallery</a>
+                <a href="#" class="hover:text-amber-200 transition duration-200">Setting</a>
+                <a href="#" class="hover:text-amber-200 transition duration-200">Contact</a>
+            </nav>
+
+            <div class="flex items-center space-x-4">
+
+                <!-- SEARCH BUTTON -->
+                <div class="search-wrapper">
+                    <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </div>
+
+                <!-- DESKTOP SEARCH BUTTON -->
+                <button
+                    class="hidden lg:block bg-[#3b2721]/20 hover:bg-white/30 text-white font-medium py-1 px-8 transition duration-200 border border-white/40">
+                    Search
+                </button>
+
+                <!-- MOBILE MENU BUTTON -->
+                <button id="menuBtn" class="lg:hidden p-2 rounded-md hover:bg-white/10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <div id="sidebar"
+            class="fixed top-0 left-0 h-full w-64 bg-[#3b2721]/50 text-white transform -translate-x-full transition-transform duration-300 z-40">
+
+            <div class="p-4 text-xl font-semibold border-b border-white/10">Menu</div>
+
+            <nav class="flex flex-col p-4 space-y-4 text-lg">
+                <a href="./about.html" class="hover:text-amber-200">About Us</a>
+                <a href="#" class="hover:text-amber-200">Gallery</a>
+                <a href="#" class="hover:text-amber-200">Setting</a>
+                <a href="#" class="hover:text-amber-200">Contact</a>
+            </nav>
+        </div>
+
+        <div id="overlay" class="hidden fixed inset-0 bg-black/50 z-30"></div>
+
+
+        <main class="content-flex">
+
+            <div class="contact-grid lg:grid lg:grid-cols-2 max-w-7xl mx-auto p-4 md:p-12 lg:p-16">
+
+                <!-- LEFT COLUMN: Contact Information -->
+                <div class="flex flex-col justify-center space-y-8 lg:pr-16 py-12 lg:py-0">
+
+                    <h1 class="text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-stone-100 mb-8">
+                        Contact Us
+                    </h1>
+
+                    <!-- Contact Item: Email -->
+                    <div class="space-y-1">
+                        <p class="text-base text-stone-400">Paragraph here</p>
+                        <div class="mt-2">
+                            <p class="text-2xl font-semibold text-stone-200">Email</p>
+                            <a href="mailto:placeholder@email.com"
+                                class="text-lg text-stone-300 hover:text-white transition duration-300">placeholder@email.com</a>
+                        </div>
+                    </div>
+
+                    <div class="h-px bg-stone-700 w-24"></div> <!-- Divider line -->
+
+                    <!-- Contact Item: Website -->
+                    <div class="space-y-1">
+                        <p class="text-base text-stone-400">Paragraph here</p>
+                        <div class="mt-2">
+                            <p class="text-2xl font-semibold text-stone-200">Website</p>
+                            <a href="http://www.placeholder.com" target="_blank"
+                                class="text-lg text-stone-300 hover:text-white transition duration-300">www.placeholder.com</a>
+                        </div>
+                    </div>
+
+                    <div class="h-px bg-stone-700 w-24"></div> <!-- Divider line -->
+
+                    <!-- Contact Item: Address (Added for completeness) -->
+                    <div class="space-y-1">
+                        <p class="text-base text-stone-400">Another paragraph here</p>
+                        <div class="mt-2">
+                            <p class="text-2xl font-semibold text-stone-200">Address</p>
+                            <p class="text-lg text-stone-300">123 Cozy Lane, Earth</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- RIGHT COLUMN: Image Display with Custom Overlap CSS -->
+                <div class="flex items-center justify-center lg:pl-16">
+                    <div class="image-grid-container">
+                        <img src="https://placehold.co/800x1200/5C4538/FFFFFF?text=Background+Leaf+Scene"
+                            onerror="this.onerror=null;this.src='https://placehold.co/800x1200/5C4538/FFFFFF?text=Background+Image'"
+                            alt="Close up of a large tropical leaf" class="image-1" />
+
+                        <div class="image-2-frame">
+                            <img src="https://placehold.co/700x500/E8E3DD/4F3630?text=+Vase+and+Coffee+Table"
+                                onerror="this.onerror=null;this.src='https://placehold.co/700x500/E8E3DD/4F3630?text=Foreground+Image'"
+                                alt="A vase of dried flowers and a coffee cup on a small table" class="rounded" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+<section class="facilities-section">
+
+    <!-- LEFT IMAGES -->
+    <div class="images-wrapper">
+
+        <div class="img-frame">
+            <img src="https://placehold.co/650x700/cbb8a3/3b2f29?text=Image+1" alt="">
+        </div>
+
+        <div class="img-overlap">
+            <img src="https://placehold.co/550x650/e3dbc9/3b2f29?text=Image+2" alt="">
+        </div>
+
+    </div>
+
+    <!-- RIGHT CONTENT -->
+    <div class="facilities-content">
+        <h2>Our Facilities</h2>
+        <p class="intro">Paragraph here!</p>
+
+        <div class="facility">
+            <span class="number">01</span>
+            <div>
+                <h4>Facilities</h4>
+                <p>Paragraph here</p>
+            </div>
+        </div>
+
+        <div class="facility">
+            <span class="number">02</span>
+            <div>
+                <h4>Facilities</h4>
+                <p>Paragraph here</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+</body>
+
+<script src="./js/main.js"></script>
+
+</html>

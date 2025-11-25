@@ -1,0 +1,104 @@
+/* =========================================================
+   GLOBAL
+========================================================= */
+.image-grid-container {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.image-2-frame {
+    position: absolute;
+    top: 50%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 85%;
+    padding: 12px;
+    border: 2px solid #e5e5e5;
+    background: transparent;
+}
+
+.image-2-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* =========================================================
+   FACILITIES SECTION BASE
+========================================================= */
+.facilities-section {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 40px;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.images-wrapper {
+    width: 45%;
+    position: relative;
+}
+
+.img-frame {
+    width: 75%;
+    padding: 10px;
+    border: 4px solid #e6d6c8;
+}
+
+.img-frame img {
+    width: 100%;
+    display: block;
+}
+
+.img-overlap {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    width: 55%;
+}
+
+.img-overlap img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.facilities-content {
+    width: 50%;
+}
+
+.facilities-content h2 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.facility {
+    display: flex;
+    /* border: 1px solid red; */
+    text-align: left;
+    margin-top: 30px ;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.facility .number {
+    /* border: 1px solid red; */
+    font-size: 28px;
+    font-weight: bold;
+}
