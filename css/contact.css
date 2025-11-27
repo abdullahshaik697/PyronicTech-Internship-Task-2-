@@ -57,6 +57,7 @@
 }
 
 .img-frame {
+    z-index: -1;
     width: 75%;
     padding: 10px;
     border: 4px solid #e6d6c8;
